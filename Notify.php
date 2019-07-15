@@ -34,8 +34,8 @@
     </h3><br>
     <form action="behindNotify.php" method="POST">
       <div class="row"><!--Username-->
-          <label for="username">ชื่อผู้ใช้งาน</label>
-          <input type="text" id="username" name="username" placeholder="ชื่อผู้ใช้..." required>
+          <label for="username">ชื่อ-นามสกุล</label>
+          <input type="text" id="username" name="username" placeholder="ชื่อ-นามสกุล" required>
       </div>
 
       <div class="row"><!--Select..area/school...-->
@@ -61,35 +61,35 @@
       </div>
 
       <div class="row">
-          <label for="building">หมวดอาคารเรียน</label>
+          <label for="building">หมวดอาคารและสิ่งก่อสร้าง</label>
           <textarea id="subject" name="building" placeholder="กรอกรายละเอียดที่นี่..." style="height:100px"></textarea>
       </div>
       <div class="row">
-          <label for="land">หมวดที่ดินและสิ่งก่อสร้าง</label>
-          <textarea id="subject" name="land" placeholder="กรอกรายละเอียดที่นี่..." style="height:100px"></textarea>
+          <label for="land">หมวดไฟฟ้า</label>
+          <textarea id="subject" name="electric" placeholder="กรอกรายละเอียดที่นี่..." style="height:100px"></textarea>
       </div>
       <div class="row">
-          <label for="equipment">หมวดครุภัณฑ์</label>
-          <textarea id="subject" name="equipment" placeholder="กรอกรายละเอียดที่นี่..." style="height:100px"></textarea>
+          <label for="equipment">หมวดครุภัณฑ์ภายนอกห้องเรียน</label>
+          <textarea id="subject" name="inside" placeholder="กรอกรายละเอียดที่นี่..." style="height:100px"></textarea>
       </div>
       <div class="row">
-          <label for="media">หมวดสื่อการสอน</label>
-          <textarea id="subject" name="media" placeholder="กรอกรายละเอียดที่นี่..." style="height:100px"></textarea>
+          <label for="media">หมวดครุภัณฑ์ภายในห้องเรียน</label>
+          <textarea id="subject" name="outside" placeholder="กรอกรายละเอียดที่นี่..." style="height:100px"></textarea>
       </div>
       <div class="row">
           <label for="computer">หมวดคอมพิวเตอร์</label>
           <textarea id="subject" name="computer" placeholder="กรอกรายละเอียดที่นี่..." style="height:100px"></textarea>
       </div>
       <div class="row">
-          <label for="computer">หมวดไฟฟ้า</label>
-          <textarea id="subject" name="electric" placeholder="กรอกรายละเอียดที่นี่..." style="height:100px"></textarea>
+          <label for="computer">หมวดสื่อการสอน</label>
+          <textarea id="subject" name="media" placeholder="กรอกรายละเอียดที่นี่..." style="height:100px"></textarea>
       </div>
       <div class="row">
           <label for="other">หมวดอื่นๆ</label>
           <textarea id="subject" name="other" placeholder="กรอกรายละเอียดที่นี่..." style="height:100px"></textarea>
       </div>
       <div class="row" id="submitButton">
-        <input type="submit" value="Submit">
+        <input type="submit" value="ส่งข้อมูล">
       </div>
     </form>
   </div>

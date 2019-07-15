@@ -4,8 +4,8 @@
 
   $logID_M = str_replace("-","",date("Y-m-d"))."-".$_POST["list2"];
 
-  $types = array("อาคารเรียน","ที่ดินและสิ่งก่อสร้าง","ครุภัณฑ์","สื่อการสอน","คอมพิวเตอร์","ไฟฟ้า","อื่นๆ");
-  $text = array($_POST["building"],$_POST["land"],$_POST["equipment"],$_POST["media"],$_POST["computer"],$_POST["electric"],$_POST["other"]);
+  $types = array("อาคารและสิ่งก่อสร้าง","ไฟฟ้า","ครุภัณฑ์ภายนอกห้องเรียน","ครุภัณฑ์ภายในห้องเรียน","คอมพิวเตอร์","สื่อการสอน","อื่นๆ");
+  $text = array($_POST["building"],$_POST["electric"],$_POST["outside"],$_POST["inside"],$_POST["computer"],$_POST["media"],$_POST["other"]);
   $line = "------------------------------------------";
 
   $strSQL2 = "SELECT sc_name FROM school WHERE sc_id ='".$_POST["list2"]."'";
