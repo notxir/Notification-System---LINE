@@ -18,8 +18,6 @@
       </div>
       <ul class="nav navbar-nav">
         <li><a href="displayInfo.php">ตารางแสดงผลการแจ้งเตือน</a></li>
-        <li><a href="../Explore/exploration.php">Explore.php</a></li>
-        <li><a href="../Explore/displayExplored.php">displayExplore.php</a></li>
       </ul>
     </div>
   </nav>

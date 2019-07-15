@@ -18,8 +18,6 @@
       </div>
       <ul class="nav navbar-nav">
         <li><a href="displayInfo.php">ตารางแสดงผลการแจ้งเตือน</a></li>
-        <li><a href="../Explore/exploration.php">Explore.php</a></li>
-        <li><a href="../Explore/displayExplored.php">Explore.php</a></li>
     </ul>
     </div>
   </nav>
@@ -35,6 +33,7 @@
           <option value="Username">ผู้แจ้ง</option>
           <option value="SchoolName">โรงเรียน</option>
           <option value="Category">หมวดหมู่</option>
+          <option value="status">สถานะการตรวจสอบ</option>
         </select>
       </form>
 

@@ -9,9 +9,15 @@ body{
 h3{
   LINE-HEIGHT:35px;
 }
+
+th,tr,td{
+  text-align: center;
+}
+
 #log_table{
   width: 100%;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -47,6 +53,7 @@ input[type=submit]:hover {
 }
 
 .container {
+  width: 90%;
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
